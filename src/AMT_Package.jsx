@@ -425,7 +425,7 @@ export function SwitchCase({ w, h }) {
 
 
 
-export function ChecOut({ title, clickEvent }) {
+export function CheckOut({ title, clickEvent }) {
   let handleEvent = () => {
     if (typeof clickEvent === "function") {
       clickEvent();
